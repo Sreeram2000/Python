@@ -12,3 +12,5 @@ def insertionSort(arr):
 
 arr = [12,11,13,5,6]
 insertionSort(arr)
+
+# Time Complexity O(n^2) Auxiliary Space O(1)
