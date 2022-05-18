@@ -1,6 +1,6 @@
 # arr = [12,11,13,5,6] => [5,6,11,12,13]
 
-def insertionSort(arr):
+def insertion_sort(arr):
     for i in range(1,len(arr)):
         key = arr[i]
         j=i-1
@@ -11,6 +11,6 @@ def insertionSort(arr):
     print(arr)
 
 arr = [12,11,13,5,6]
-insertionSort(arr)
+insertion_sort(arr)
 
 # Time Complexity O(n^2) Auxiliary Space O(1)
